@@ -39,11 +39,12 @@ namespace fukuv0602
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(285, 182);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.Size = new System.Drawing.Size(98, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "(・ω・)";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1

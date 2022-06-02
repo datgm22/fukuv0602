@@ -20,26 +20,31 @@ namespace fukuv0602
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top - 10;
+            label1.Text = "(^ω^)";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left - 10;
+            label1.Text = "(・ω・#)";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left + 10;
+            label1.Text = "(#・ω・)";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top + 10;
+            label1.Text = "(_ω_)";
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("田中雄");
+            label1.Visible = false;
         }
     }
 }
